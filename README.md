@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/lokimcpuniverse-hootsuite-mcp-server-badge.png)](https://mseep.ai/app/lokimcpuniverse-hootsuite-mcp-server)
+
 # Hootsuite MCP Server
 
 <div align="center">
