@@ -7,7 +7,6 @@ import json
 
 from mcp.server import Server
 from mcp.types import Tool, TextContent, Resource, Prompt
-from pydantic import BaseModel, Field
 
 from .client import HootsuiteClient
 from .config import Settings

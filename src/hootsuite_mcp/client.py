@@ -6,7 +6,6 @@ from typing import Any, Dict, List, Optional
 from datetime import datetime, timedelta
 
 import httpx
-from pydantic import BaseModel
 
 from .config import Settings
 
