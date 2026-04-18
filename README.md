@@ -80,16 +80,18 @@ python -m hootsuite_mcp.server
 ### Using as a Library
 
 ```python
-import asyncio
-from hootsuite_mcp import HootsuiteMCPServer
+from hootsuite_mcp import mcp
 
-async def main():
-    server = HootsuiteMCPServer()
-    await server.run()
-
+# `mcp` is a FastMCP instance with tools pre-registered.
+# Run the stdio transport in-process:
 if __name__ == "__main__":
-    asyncio.run(main())
+    mcp.run()
 ```
+
+### Requirements
+
+- Python 3.10 or newer
+- MCP SDK 1.27+ (installed automatically via `pip install -e .`)
 
 ## Available Tools
 

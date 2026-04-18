@@ -1,16 +1,16 @@
 """Hootsuite MCP Server - Model Context Protocol server for Hootsuite integration."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
-from .server import HootsuiteMCPServer, main
-from .client import HootsuiteClient, HootsuiteAPIError, HootsuiteAuthenticationError
+from .client import HootsuiteAPIError, HootsuiteAuthenticationError, HootsuiteClient
 from .config import Settings
+from .server import main, mcp
 
 __all__ = [
-    "HootsuiteMCPServer",
-    "HootsuiteClient",
     "HootsuiteAPIError",
     "HootsuiteAuthenticationError",
+    "HootsuiteClient",
     "Settings",
-    "main"
+    "main",
+    "mcp",
 ]

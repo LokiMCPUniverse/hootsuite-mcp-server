@@ -104,7 +104,7 @@ The test suite includes:
 ## Continuous Integration
 
 GitHub Actions workflows automatically:
-- Run tests on Python 3.8-3.12
+- Run tests on Python 3.10-3.13
 - Test on Ubuntu, Windows, and macOS
 - Check code style with ruff
 - Generate coverage reports

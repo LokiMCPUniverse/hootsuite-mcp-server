@@ -174,8 +174,8 @@ def main():
             with open(test_file, 'r') as f:
                 tree = ast.parse(f.read())
             
-            test_functions = [node.name for node in ast.walk(tree) 
-                             if isinstance(node, ast.FunctionDef) and 
+            test_functions = [node.name for node in ast.walk(tree)
+                             if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)) and
                              node.name.startswith('test_')]
             
             if test_functions:
